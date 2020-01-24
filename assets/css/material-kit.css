@@ -11530,7 +11530,6 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
     vertical-align: middle;
     position: relative;
     top: -2px;
-    float: left;
     padding-right: 10px;
     display: inline-block;
 }
@@ -11861,7 +11860,6 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
     vertical-align: middle;
     position: relative;
     top: -2px;
-    float: left;
     padding-right: 10px;
     display: inline-block;
 }
@@ -14082,7 +14080,6 @@ textarea {
     position: relative;
     width: 22px;
     height: 2px;
-    vertical-align: middle;
     outline: 0;
     display: block;
     border-radius: 1px;
@@ -16415,7 +16412,7 @@ footer .pull-center {
 .card.bg-primary,
 .card.card-rotate.bg-primary .front,
 .card.card-rotate.bg-primary .back {
-    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.87), #cbaf26);
 }
 
 .card .card-header-info,
@@ -16454,7 +16451,7 @@ footer .pull-center {
 }
 
 .card .card-header-primary {
-    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.87), 0 13px 24px -11px rgba(0, 0, 0, 0.87);
 }
 
 .card .card-header-danger {
@@ -16617,7 +16614,7 @@ footer .pull-center {
 }
 
 .card-login .form {
-    min-height: 420px;
+    min-height: 219px;
 }
 
 .card-login .social-line {
